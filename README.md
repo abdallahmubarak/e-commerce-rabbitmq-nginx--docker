@@ -1,15 +1,7 @@
 # E-commerce-Microservice
 A Node.js and Express.js-powered ecommerce Microservice application. To connect the various services, RabbitMQ is used.
 
-## Clone project
-
-```bash
-git clone https://github.com/Dev-Elie/E-commerce-Microservice.git
-cd E-commerce-Microservice
-```
-
 ## Install packages for all services
-```bash
 cd auth-service && npm install
 cd product-service && npm install
 cd order-service && npm install
